@@ -1,3 +1,22 @@
+## Date: 06-09-2026
+
+**Today's Work:**
+- Session 4: OOP Reinforced with Basic Constructs
+- Solved Class Problems (Category B):
+  - M1: LibraryBook — constructor chaining via this() and "PENDING" fallback
+  - M2: Employee — resolving field/parameter clashes using this and batch salary raises
+  - M3: LateFeeAccount — final methods locking calculation and skipping on-time accounts
+  - M4: SrmStudent — one-time static block initialization and batch student creation
+  - M5: AccountBatchPayment — instanceof dispatch for FeeAccount vs HostelFeeAccount with counters
+
+**Next Session Plan:**
+- Continue with take-home assignment problems and next session topics
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 05-09-2026
 
 **Today's Work:**
