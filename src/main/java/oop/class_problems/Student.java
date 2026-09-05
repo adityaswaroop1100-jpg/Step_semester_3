@@ -1,11 +1,11 @@
-package oop.assignment_problems;
+package oop.class_problems;
 
 /**
  * M5. Instance vs Static: Splitting a Class Correctly
  * Demonstrates correct use of instance fields, static fields,
  * and static methods that do NOT reference instance data.
  */
-class Student {
+public class Student {
 
     // Instance fields — unique per student
     String name;
@@ -21,7 +21,7 @@ class Student {
     public Student(String name, int attendance) {
         this.name = name;
         this.attendance = attendance;
-        studentCount++; // shared counter — no instance reference needed
+        studentCount++;
     }
 
     // Static method: prints college info — must NOT reference instance fields
@@ -31,12 +31,9 @@ class Student {
     }
 
     public static void main(String[] args) {
-
-        // Create two Student objects
         Student s1 = new Student("Ravi", 85);
         Student s2 = new Student("Anitha", 90);
 
-        // Call static method via class name — not through an object
         Student.printCollegeInfo();
     }
 }

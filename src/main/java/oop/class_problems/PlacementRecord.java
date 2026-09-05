@@ -1,10 +1,10 @@
-package oop.assignment_problems;
+package oop.class_problems;
 
 /**
  * M1. From Parallel Arrays to a Class
  * Represents a single student placement record.
  */
-class PlacementRecord {
+public class PlacementRecord {
 
     String studentName;
     String company;

@@ -1,11 +1,11 @@
-package oop.assignment_problems;
+package oop.class_problems;
 
 /**
  * M2. Encapsulated Mess-Card Wallet
  * A hostel mess-card wallet that never goes negative,
  * with private balance and controlled access.
  */
-class MessWallet {
+public class MessWallet {
 
     // Private field — cannot be accessed directly from outside
     private double balance;
@@ -45,7 +45,6 @@ class MessWallet {
     }
 
     public static void main(String[] args) {
-
         MessWallet wallet = new MessWallet(500);
         wallet.topUp(200);
         wallet.deduct(1000);

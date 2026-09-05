@@ -1,10 +1,10 @@
-package oop.assignment_problems;
+package oop.class_problems;
 
 /**
  * M3. Overloaded Constructors for a Course
  * Supports theory-only and theory+lab courses via constructor chaining.
  */
-class Course {
+public class Course {
 
     String code;
     String title;
@@ -30,11 +30,7 @@ class Course {
     }
 
     public static void main(String[] args) {
-
-        // Theory-only course
         Course theoryOnly = new Course("21CSC201J", "Data Structures", 4);
-
-        // Theory + Lab course
         Course withLab = new Course("21CSC205L", "DSA Lab", 3, 1);
 
         System.out.println(theoryOnly.code + " total credits: " + theoryOnly.totalCredits());
