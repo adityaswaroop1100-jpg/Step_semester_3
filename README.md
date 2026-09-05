@@ -1,16 +1,22 @@
 ## Date: 06-09-2026
 
 **Today's Work:**
-- Session 4: OOP Reinforced with Basic Constructs
-- Solved Class Problems (Category B):
+- Session 4: Constructors and Java Keywords (OOP Reinforced with Basic Constructs)
+- Solved Class Problems (Category B In-Class):
   - M1: LibraryBook — constructor chaining via this() and "PENDING" fallback
   - M2: Employee — resolving field/parameter clashes using this and batch salary raises
   - M3: LateFeeAccount — final methods locking calculation and skipping on-time accounts
   - M4: SrmStudent — one-time static block initialization and batch student creation
   - M5: AccountBatchPayment — instanceof dispatch for FeeAccount vs HostelFeeAccount with counters
+- Solved Take-Home Assignment Problems (Category B Assignment A1-A5):
+  - A1: Participant — overloaded constructors for hackathon registration with this() chaining
+  - A2: Item — this keyword for canteen inventory batch restocking
+  - A3: ParkingTicket — final method for parking overstay fine calculator and skip logic
+  - A4: MembershipCard — static block library membership card setup running once
+  - A5: Payment — instanceof inside loop for canteen closing-time payment dispatch
 
 **Next Session Plan:**
-- Continue with take-home assignment problems and next session topics
+- Continue with Session 5 topics as per mentor's guidance
 
 **Issues Faced:**
 - None
